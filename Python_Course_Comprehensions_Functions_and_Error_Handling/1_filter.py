@@ -1,0 +1,4 @@
+# Just if is "True" will be part of the new list
+numbers = [1,2,3,4]
+new_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+print(new_numbers)
